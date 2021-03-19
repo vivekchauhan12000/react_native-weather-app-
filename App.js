@@ -5,7 +5,7 @@ import * as Location from 'expo-location';
 import Weatherinfo from './components/Weatherinfo'
 import WeatherDetails from './components/WeatherDetail'
 
-const weather_apikey="4f266d8162df1fd9714255168a67112f"
+const weather_apikey="api key here"
 export default function App() {
   const [errorMessage,setErrorMessage]=useState(null)
   const [currentWeather,setCurrentWeather]=useState(null)
